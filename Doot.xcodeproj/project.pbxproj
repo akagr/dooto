@@ -13,6 +13,7 @@
 		38922680267E632100FF7102 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3892267F267E632100FF7102 /* Preview Assets.xcassets */; };
 		38922682267E632100FF7102 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38922681267E632100FF7102 /* Persistence.swift */; };
 		38922685267E632100FF7102 /* Doot.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 38922683267E632100FF7102 /* Doot.xcdatamodeld */; };
+		3892268D267E637300FF7102 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3892268C267E637300FF7102 /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		38922681267E632100FF7102 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		38922684267E632100FF7102 /* Doot.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Doot.xcdatamodel; sourceTree = "<group>"; };
 		38922686267E632100FF7102 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3892268C267E637300FF7102 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		38922677267E632000FF7102 /* Doot */ = {
 			isa = PBXGroup;
 			children = (
+				3892268C267E637300FF7102 /* Task.swift */,
 				38922678267E632000FF7102 /* DootApp.swift */,
 				3892267A267E632000FF7102 /* ContentView.swift */,
 				3892267C267E632100FF7102 /* Assets.xcassets */,
@@ -146,6 +149,7 @@
 			files = (
 				38922682267E632100FF7102 /* Persistence.swift in Sources */,
 				3892267B267E632000FF7102 /* ContentView.swift in Sources */,
+				3892268D267E637300FF7102 /* Task.swift in Sources */,
 				38922679267E632000FF7102 /* DootApp.swift in Sources */,
 				38922685267E632100FF7102 /* Doot.xcdatamodeld in Sources */,
 			);
