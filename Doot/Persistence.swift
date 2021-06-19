@@ -16,7 +16,7 @@ struct PersistenceController {
         for i in 0..<10 {
             let newItem = Task(context: viewContext)
             newItem.createdAt = Date()
-            newItem.body = "Task \(i)"
+            newItem.body = "Task \(i + 1)"
         }
         do {
             try viewContext.save()
