@@ -25,7 +25,7 @@
 		38922681267E632100FF7102 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		38922684267E632100FF7102 /* Doot.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Doot.xcdatamodel; sourceTree = "<group>"; };
 		38922686267E632100FF7102 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3892268C267E637300FF7102 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = SOURCE_ROOT; };
+		3892268C267E637300FF7102 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Task.swift; path = Doot/Model/Task.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +58,9 @@
 		38922677267E632000FF7102 /* Doot */ = {
 			isa = PBXGroup;
 			children = (
-				3892268C267E637300FF7102 /* Task.swift */,
+				38922690267E75A800FF7102 /* Model */,
 				38922678267E632000FF7102 /* DootApp.swift */,
-				3892267A267E632000FF7102 /* ContentView.swift */,
+				3892268E267E759200FF7102 /* View */,
 				3892267C267E632100FF7102 /* Assets.xcassets */,
 				38922681267E632100FF7102 /* Persistence.swift */,
 				38922686267E632100FF7102 /* Info.plist */,
@@ -76,6 +76,22 @@
 				3892267F267E632100FF7102 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3892268E267E759200FF7102 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3892267A267E632000FF7102 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		38922690267E75A800FF7102 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3892268C267E637300FF7102 /* Task.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,7 +308,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = me.akashagrawal.Doot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -314,7 +330,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = me.akashagrawal.Doot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
